@@ -7,11 +7,20 @@ class FizzBuzz {
 
     public static void main(String[] args) {
         doFizzBuzz1();
+        doFizzBuzz2();
     }
 
     private static void doFizzBuzz1() {
         for (int i = 1; i < 100; i++) {
             printFizzBuzz(i);
+        }
+    }
+
+    private static void doFizzBuzz2() {
+        int i = 1;
+        while  (i < 100) {
+            printFizzBuzz(i);
+            i++;
         }
     }
 
